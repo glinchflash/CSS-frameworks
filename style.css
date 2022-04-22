@@ -101,3 +101,9 @@ label:hover{
 .card:hover{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
+@media (max-width: 768px) {
+    .span12-tablet {
+        width: 91.48936170212765% !important;
+        *width: 91.43617021276594% !important;
+    }
+}
