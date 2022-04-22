@@ -62,7 +62,7 @@ li {
     /* The left margin when
     sidebar is visible */
     left: 200px;
-    right: 20px;
+    right: 0;
     bottom: 0;
 
     -moz-transition: left 0.5s ease;
