@@ -13,6 +13,7 @@ button.btn-outline-light{
 button.btn-outline-light:hover{
     background-color: #00a6ff;
     border-radius: 25px;
+    box-shadow: 0 10px 10px -5px gray;
 }
 
 .content {
