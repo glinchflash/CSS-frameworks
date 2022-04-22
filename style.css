@@ -1,3 +1,19 @@
+.links{
+    color: grey;
+}
+
+.links:hover{
+    color: white;
+    text-decoration: none;
+}
+button.btn-outline-light{
+    background-color: white;
+    position: relative;
+}
+button.btn-outline-light:hover{
+    background-color: #00a6ff;
+    border-radius: 25px;
+}
 
 .content {
     background: #c0d6de !important;
@@ -5,7 +21,6 @@
 }
 body{
     background: #c0d6de !important;
-    width:200px;margin:0 auto;
 }
 
 
@@ -16,13 +31,12 @@ body{
     /* Occupies 100% height of the page */
     height: 100%;
     /* Specifies the width of sidebar */
-    width: 500px;
+    width: 300px;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     padding-right: 60px;
-
     /* Transition effect of sidebar */
     transition: 0.5s;
 }
@@ -39,12 +53,6 @@ li {
     transition: 0.3s;
 }
 
-.sidebar li:hover {
-
-    /* Sidebar items change color
-    when hovered over */
-    color: green;
-}
 
 .content {
     background-color: white;
@@ -65,7 +73,8 @@ input[type="checkbox"] {
     display: none;
 }
 
-/* Toggling of sidebar */
+/* Toggling of sidebar*/
+
 input:checked ~ .content {
     left: 0;
 }
