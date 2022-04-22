@@ -1,7 +1,3 @@
-.btn {
-    border-radius: 20px;
-    border: transparent;
-}
 
 .content {
     background: #c0d6de !important;
@@ -84,10 +80,13 @@ label {
     position: absolute;
     top: 0;
     left: 200px;
-    background-color: black;
-    color: white;
+    background-color: #c0d6de;
+    color: black;
     -moz-transition: left 0.5s ease;
     transition: left 0.5s ease;
+}
+label:hover{
+    box-shadow: 0 0 11px blue;
 }
 
 .card:hover{
