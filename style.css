@@ -9,7 +9,10 @@
 }
 body{
     background: #c0d6de !important;
+    width:200px;margin:0 auto;
 }
+
+
 /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 
 .sidebar {
@@ -85,4 +88,8 @@ label {
     color: white;
     -moz-transition: left 0.5s ease;
     transition: left 0.5s ease;
+}
+
+.card:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
