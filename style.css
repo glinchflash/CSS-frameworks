@@ -1,20 +1,3 @@
-.links{
-    color: grey;
-}
-
-.links:hover{
-    color: white;
-    text-decoration: none;
-}
-button.btn-outline-light{
-    background-color: white;
-    position: relative;
-}
-button.btn-outline-light:hover{
-    background-color: #00a6ff;
-    border-radius: 25px;
-    box-shadow: 0 10px 10px -5px gray;
-}
 
 .content {
     background: #c0d6de !important;
